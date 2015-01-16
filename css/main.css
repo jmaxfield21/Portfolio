@@ -14,6 +14,13 @@
 	width: inherit;
 }
 
+.dark-black-overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: inherit;
+	width: inherit;
+	display: none;
+}
+
 .header-content {
 	position: relative;
 	z-index: 2;
@@ -97,6 +104,7 @@
 
 .container {
 	width: 1000px !important;
+	padding-bottom: 150px;
 }
 
 .view {
@@ -268,5 +276,61 @@
 
 .button-group .button:last-child { 
 	border-radius: 0 0.5em 0.5em 0; 
+}
+
+
+.me {
+	background: url("../img/me.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 1000px;
+}
+
+.me h1 {
+	text-align: right;
+	padding-right: 55px;
+	color: #FFFFFF;
+}
+
+.grad {
+	background: url("../img/graduation.jpg");
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 55px;
+	height: 620px;
+	width: 540px;
+
+}
+
+.grad:hover {
+
+}
+
+.pic-label {
+	position: absolute;
+	float: left;
+	color: #FFFFFF;
+	font-size: 1.3em !important;
+	bottom: 0px;
+	width: inherit;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.text-right {
+	width: 500px;
+	float: right;
+	padding-right: 55px;
+	color: #FFFFFF;
+	font-size: 1.6em;
+}
+
+.text-right p {
+	padding-bottom: 50px;
+}
+
+#everything_else {
+	height: 400px;
 }
 

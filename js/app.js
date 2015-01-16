@@ -7,7 +7,6 @@ $(document).ready(function() {
 	});
 
 	$('.filters').on( 'click', 'button', function(event) {
-		console.log('Button clicked');
     	var filterValue = $( this ).attr('data-filter');
     	container.isotope({ filter: filterValue });
   	});
@@ -19,4 +18,9 @@ $(document).ready(function() {
       $( this ).addClass('is-checked');
     });
   });
+
+  $('#about').hover( function() {
+    $('.dark-black-overlay').fadeIn('slow');
+  });
+
 });
