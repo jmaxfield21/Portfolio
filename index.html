@@ -18,7 +18,7 @@
 			<div class="center">
 				<ul class="navigation">
 					<li>
-						<a href="http://jmaxfield21.github.io/ThinkfulAboutMe/" target="_blank">About</a>
+						<a href="#about">About</a>
 					</li>
 					<li>
 						<a href="#work">Work</a>
@@ -42,72 +42,90 @@
 		<a name="work"></a>
 		<section>
 			<div class="section-header">
-				<h2>Sample Projects</h2>
+				<h1>Sample Projects</h1>
 			</div>
 			<div class="main-content">
-				<div class="filters button-group js-radio-button-group">
-					<button class="button is-checked" data-filter="*">show all</button>
-					<button class="button" data-filter="static">static</button>
-					<button class="button" data-filter="responsive">responsive</button>
-					<button class="button" data-filter="jquery">jquery</button>
-					<button class="button" data-filter="javascript">javascript</button>
+				<div class="filter-options">
+					<label>Filters</label>
+					<div class="filters button-group js-radio-button-group">
+						<button class="button is-checked" data-filter="*">show all</button>
+						<button class="button" data-filter=".static">static</button>
+						<button class="button" data-filter=".responsive">responsive</button>
+						<button class="button" data-filter=".jquery">jquery</button>
+						<button class="button" data-filter=".javascript">javascript</button>
+					</div>
 				</div>
 				<div class="isotope container">
-					<div class="element-item view javascript" data-category="javascript">
+					<div class="item view javascript jquery" data-category=".javascript .jquery">
 						<img src="img/quiz.PNG">
-						<div class="info">
-							<h4>Quiz App</h4>
-							<p>A quiz app built using JavaScript and object oriented programming.</p>
-						</div>
+						<a href="http://jmaxfield21.github.io/QuizApp/" target="_blank">
+							<div class="info">
+								<h4>Quiz App</h4>
+								<p>A quiz app built using JavaScript and object oriented programming.</p>
+							</div>
+						</a>
 					</div>
-					<div class="element-item view static" data-category="static">
+					<div class="item view static" data-category=".static">
 						<img src="img/aboutme.PNG">
-						<div class="info">
-							<h4>About Me</h4>
-							<p>A static webpage that was really a benchmark for where I started in my web development.</p>
-						</div>
+						<a href="http://jmaxfield21.github.io/ThinkfulAboutMe/" target="_blank">
+							<div class="info">
+								<h4>About Me</h4>
+								<p>A static webpage that was really a benchmark for where I started in my web development.</p>
+							</div>
+						</a>
 					</div>
-					<div class="element-item view jquery" data-category="jquery">
+					<div class="item view jquery" data-category=".jquery">
 						<img src="img/streetfighter.PNG">
-						<div class="info">
-							<h4>StreetFighter</h4>
-							<p>This page acted as a foundation for JQuery by introducing basic concepts and usages.</p>
-						</div>
+						<a href="http://jmaxfield21.github.io/StreetFighter/main.html" target="_blank">
+							<div class="info">
+								<h4>StreetFighter</h4>
+								<p>This page acted as a foundation for JQuery by introducing basic concepts and usages.</p>
+							</div>
+						</a>
 					</div>
-					<div class="element-item view static responsive" data-category="static">
+					<div class="item view static responsive" data-category=".static .responsive">
 						<img src="img/vox.PNG">
-						<div class="info">
-							<h4>Vox Clone</h4>
-							<p>An example in responsive web design. The page will adapt to the user's screen size and make the content more user-friendly.</p>
-						</div>
+						<a href="http://jmaxfield21.github.io/VoxClone/" target="_blank">
+							<div class="info">
+								<h4>Vox Clone</h4>
+								<p>An example in responsive web design. The page will adapt to the user's screen size and make the content more user-friendly.</p>
+							</div>
+						</a>
 					</div>
-					<div class="element-item view javascript" data-category="javascript">
+					<div class="item view javascript jquery" data-category=".javascript .jquery">
 						<img src="img/hotcold.PNG">
-						<div class="info">
-							<h4>Hot or Cold</h4>
-							<p>The classic 'Hot or Cold' game built using JavaScript and JQuery.</p>
-						</div>
+						<a href="http://jmaxfield21.github.io/hot-or-cold/" target="_blank">
+							<div class="info">
+								<h4>Hot or Cold</h4>
+								<p>The classic 'Hot or Cold' game built using JavaScript and JQuery.</p>
+							</div>
+						</a>
 					</div>
-					<div class="element-item view javascript" data-category="javascript">
+					<div class="item view javascript jquery" data-category=".javascript .jquery">
 						<img src="img/shoppinglist.PNG">
+						<a href="http://jmaxfield21.github.io/ShoppingListApp/" target="_blank"></a>
 						<div class="info">
 							<h4>Shopping List App</h4>
 							<p>Create your shopping list with this useful app! Add items, cross them off, or remove them completely. All using JQuery.</p>
 						</div>
 					</div>
-					<div class="element-item view ajax reponsive" data-category="ajax">
+					<div class="item view ajax responsive" data-category=".ajax .responsive .javascript .jquery">
 						<img src="img/apihack.PNG">
-						<div class="info">
-							<h4>Native Rave</h4>
-							<p>App using the Google Maps API and Google Places API to retrieve location data in Salt Lake City, UT.</p>
-						</div>
+						<a href="http://jmaxfield21.github.io/APIhack/" target="_blank">
+							<div class="info">
+								<h4>Native Rave</h4>
+								<p>App using the Google Maps API and Google Places API to retrieve location data in Salt Lake City, UT.</p>
+							</div>
+						</a>
 					</div>					
-					<div class="element-item view static" data-category="static">
+					<div class="item view static" data-category=".static">
 						<img src="img/karma.PNG">
-						<div class="info">
-							<h4>Karma Clone</h4>
-							<p>Static webpage designed as practice of element layout and design.</p>
-						</div>
+						<a href="http://jmaxfield21.github.io/KarmaClone/" target="_blank">
+							<div class="info">
+								<h4>Karma Clone</h4>
+								<p>Static webpage designed as practice of element layout and design.</p>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
