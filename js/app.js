@@ -23,4 +23,8 @@ $(document).ready(function() {
     $('.dark-black-overlay').fadeIn('slow');
   });
 
+  $('#about_link').on( 'click', function() {
+  	$('.dark-black-overlay').fadeIn('slow');
+  });
+
 });
