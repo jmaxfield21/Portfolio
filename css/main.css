@@ -109,7 +109,7 @@
 
 .main-content {
 	min-height: 600px;
-	min-width: 1400px;
+	/*min-width: 1400px;*/
 	position: relative;
 	text-align: center;
 }
