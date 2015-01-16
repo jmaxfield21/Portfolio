@@ -37,7 +37,7 @@
 }
 
 .center {
-	width: 550px;
+	width: 770px;
 	margin: 0 auto;
 }
 
@@ -54,6 +54,18 @@
 	margin-top: 18px;
 }
 
+.navigation span {
+	font-weight: 700;
+	font-size: 1.3em;
+	color: #005580;
+}
+
+.navigation span:after {
+	content: '|';
+	padding-left: 50px;
+	font-weight: 300;
+}
+
 .navigation li {
 	text-align: center;
 	display: inline;
@@ -63,7 +75,7 @@
 }
 
 .navigation li:first-child {
-	padding-left: 50px;
+	padding-left: 30px;
 }
 
 .navigation li:last-child {
